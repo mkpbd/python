@@ -127,3 +127,5 @@ print("xxxHelloxxx".strip("x"))               # remove 'x' from both ends
 print("Hello World".zfill(20))                # pad with leading zeros to width 20
 print("42".zfill(5))                          # pad with leading zeros to width 5
 print("7.25".zfill(5))                        # pad with leading zeros to width 5
+
+
