@@ -172,4 +172,8 @@ print(nested_list[0][0])  # First element of the first sub-list
 print(nested_list[1][1])  # Second element of the second sub-list
 print(nested_list[2][2])  # Third element of the third sub-list
 
+# List Comprehension
+squares = [x**2 for x in range(1, 11)]
+print(squares)
+
 
