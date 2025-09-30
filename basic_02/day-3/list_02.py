@@ -53,5 +53,44 @@ a = [10, 20, 30, 40, 50]
 a.append(6666); ## add single element at the end of list 
 a.extend([3,4,5]) ## add multiple  element or other list 
 a.insert(1,2222) ## add element in any spasific position 
-a.clear() ## remove all element form list 
-print(a)
+# a.clear() ## remove all element form list 
+# print(a)
+
+# ========== Removing Elements from List =============
+# We can remove elements from a list using:
+
+# remove(): Removes the first occurrence of an element.
+# pop(): Removes the element at a specific index or the last element if no index is specified.
+# del statement: Deletes an element at a specified index.
+
+# a.remove(2222)  # remove element us value 
+
+# a.pop(1)  # Remove element given index
+
+del a[3] # remove element by using  index
+
+
+
+# print(a)
+
+
+#================ Iterating Over Lists====================
+
+b = ['apple', 'banana', 'cherry']
+for item in b:
+    print(item)
+
+
+#--------------- Nested Lists ---------------
+
+matrix = [ [1, 2, 3],
+           [4, 5, 6],
+           [7, 8, 9] ]
+# print(matrix[1][2])
+
+
+#================== List Comprehension ==========================
+# List comprehension is a concise way to create lists using a single line of code. It is useful for applying an operation or filter to items in an iterable, such as a list or range.
+
+squares = [x**2 for x in range(1, 6)]
+print(squares)
