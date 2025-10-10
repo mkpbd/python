@@ -15,7 +15,7 @@ def integer_revers(number):
 list = [10, 20, 30, 40, 'kamal']
 
 # access in  list item use in  indexing 
-print(list[1])
+# print(list[1])
 
 ## update list item using  index 
 list[0] = 'jamal'
@@ -39,4 +39,26 @@ nest_list = [[3,4], [6,7], [9,10]]
 
 nest_list[1][0] = 400
 
-print(nest_list)
+# print(nest_list)
+
+## slicing  index 
+
+new_list = [3,4,5,6,7,8,9]
+
+# print(new_list[1:6])
+# print(new_list[1::2])
+
+# print(new_list[-1:-4:-1])
+# print(new_list[-1::-2])
+
+## list append 
+
+a = [2,3,4,5]
+b =[6,7,8,9]
+c = a+b
+# print(c)
+
+# d = b.__add__(a)
+d = b.insert("a")
+print(d)
+
